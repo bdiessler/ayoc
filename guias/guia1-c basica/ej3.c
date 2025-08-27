@@ -11,11 +11,21 @@ int main()
     long l = 1234567890;
     unsigned long ul = -123891723;
     float f = 4.02;
+    
+    // %c para char
+    // %h para short
+    // %hu para unsigned short
+    // %d para char, int
+    // %u para unsigned char, unsigned int
+    // %ld para long
+    // %lu para unsigned long
+    // %f para float
 
+    printf("char(%lu):              %c \n", sizeof(c), c);
     printf("char(%lu):              %d \n", sizeof(c), c);
     printf("unsigned char(%lu):     %u \n", sizeof(uc), uc);
-    printf("short(%lu):             %d \n", sizeof(s), s);
-    printf("unsigned short(%lu):    %u \n", sizeof(us), us);
+    printf("short(%lu):             %hd \n", sizeof(s), s);
+    printf("unsigned short(%lu):    %hu \n", sizeof(us), us);
     printf("int(%lu):               %d \n", sizeof(i), i);
     printf("unsigned int(%lu):      %u \n", sizeof(ui), ui);
     printf("long(%lu):              %ld \n", sizeof(l), l);
