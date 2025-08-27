@@ -1,0 +1,4 @@
+# Ignorar archivos sin extensión en cualquier carpeta
+*
+!*/
+!*.*
