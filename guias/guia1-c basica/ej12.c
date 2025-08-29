@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdint.h> //biblioteca para ints con tamaño fijo
-
+// #define d 4
 
 int main()
 {
-//     uint32_t d = 4; //tamaño de la lista -------- pq no puedo hacer esto
-//     uint32_t a[d] = {1,2,3,4};
-//     uint32_t b[d] = {0};
+    // uint32_t d = 4; //tamaño de la lista -------- pq no puedo hacer esto
+    // uint32_t a[d] = {1,2,3,4};
+    // uint32_t b[d] = {0};
     
+    // Se puede dejar a[] y al poner x elementos se le va a asignar ese tamaño
     uint32_t a[4] = {1,2,3,4};
     uint32_t b[4] = {0};
     uint32_t n = 4; //rotacion
